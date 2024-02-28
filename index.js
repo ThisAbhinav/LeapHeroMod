@@ -95,7 +95,8 @@ function dots() {
 let skull = null;
 const loader = new THREE.OBJLoader();
 loader.load(
-  "https://assets.codepen.io/127738/skull_model.obj",
+  // "https://assets.codepen.io/127738/skull_model.obj",
+  "./brain.obj",
   (obj) => {
     skull = obj.children[0];
     dots();
